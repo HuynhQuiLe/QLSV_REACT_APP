@@ -35,6 +35,7 @@ class Form extends Component {
           ly: this.props.selectedSV.ly,
           hoa: this.props.selectedSV.hoa,
         },
+        err: "",
       });
       this.props.resetUpdate();
     }
@@ -95,6 +96,7 @@ class Form extends Component {
         ly: "",
         hoa: "",
       },
+      err: "",
     });
     this.props.resetUpdateBtn();
   };
